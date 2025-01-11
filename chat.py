@@ -9,7 +9,7 @@ from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from elevenlabs import stream
-llm = ChatOllama(model="dolphin-mistral:latest")
+llm = ChatOllama(model="llama3.1:8b")
 load_dotenv()
 
 
